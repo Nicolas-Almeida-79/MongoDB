@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "677ef16ac8e5e77d08add6a9"
+  },
+  "nome": "João Silva",
+  "email": "joao@email.com",
+  "telefone": "123456789",
+  "cursos": [
+    "Curso de PHP",
+    "Curso de MongoDB"
+  ]
+},
+{
+  "_id": {
+    "$oid": "677ef20cc8e5e77d08add6ab"
+  },
+  "nome": "Maria Souza",
+  "email": "maria@email.com",
+  "telefone": "987654321",
+  "cursos": [
+    "Curso de MongoDB"
+  ]
+}]

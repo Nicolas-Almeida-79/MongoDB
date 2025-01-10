@@ -1,0 +1,133 @@
+/* Estilo global */
+body {
+    padding: 20px;
+    color: #333; /* Texto cinza escuro */
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Fundo ciano claro */
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    color: #007bff; /* Azul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    margin: 0 auto 40px; /* Centralizado com espaçamento inferior */
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid #007bff; /* Borda azul */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Garantir que o formulário não ultrapasse 400px */
+}
+
+form label {
+    font-weight: bold;
+    color: #0056b3; /* Azul escuro */
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="hidden"],
+form input[type="submit"],
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Adiciona o padding dentro da largura do input */
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus {
+    border-color: #007bff; /* Azul */
+    outline: none;
+    box-shadow: 0px 0px 5px #007bff;
+}
+
+form button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"] {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+}
+
+form button:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+}
+
+/* Estilo da lista de clientes */
+.lista-clientes {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid #007bff; /* Borda azul */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 40px; /* Espaçamento inferior */
+}
+
+.lista-clientes h2 {
+    color: #007bff; /* Azul */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lista-clientes p {
+    margin: 10px 0;
+}
+
+.lista-clientes a {
+    color: #007bff; /* Azul */
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.lista-clientes a:hover {
+    text-decoration: underline;
+}
+
+/* Mensagens de sucesso e erro */
+.success {
+    color: #28a745; /* Verde */
+    font-weight: bold;
+    text-align: center;
+}
+
+.error {
+    color: #dc3545; /* Vermelho */
+    font-weight: bold;
+    text-align: center;
+}
